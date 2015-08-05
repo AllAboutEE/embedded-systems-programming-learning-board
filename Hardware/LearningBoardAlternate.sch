@@ -305,6 +305,9 @@
 <hole x="25.1" y="0.3" drill="1.8"/>
 </package>
 <package name="SFH4244-Z">
+<description>&lt;b&gt;Super SIDELED® High-Current LED&lt;/b&gt;&lt;p&gt;
+LG A672, LP A672 &lt;br&gt;
+Source: http://www.osram.convergy.de/ ... LG_LP_A672.pdf (2004.05.13)</description>
 <wire x1="-1.85" y1="-2.05" x2="-1.85" y2="-0.75" width="0.1016" layer="51"/>
 <wire x1="-1.85" y1="-0.75" x2="-1.7" y2="-0.75" width="0.1016" layer="51"/>
 <wire x1="-1.7" y1="-0.75" x2="-1.7" y2="0.75" width="0.1016" layer="51"/>
@@ -322,16 +325,16 @@
 <wire x1="-0.55" y1="-0.9" x2="-0.55" y2="0.9" width="0.1016" layer="51" curve="-167.319617"/>
 <wire x1="-0.55" y1="-0.9" x2="0.85" y2="-1.2" width="0.1016" layer="51" style="shortdash"/>
 <wire x1="-0.55" y1="0.9" x2="0.85" y2="1.2" width="0.1016" layer="51" style="shortdash"/>
-<smd name="C" x="0" y="-2.5" dx="4" dy="4" layer="1"/>
-<smd name="A" x="0" y="2.5" dx="4" dy="4" layer="1"/>
-<text x="0.635" y="-3.175" size="1.27" layer="21" rot="R90">C</text>
-<text x="0.635" y="2.54" size="1.27" layer="21" rot="R90">A</text>
+<smd name="C" x="0" y="-2.5" dx="4" dy="4" layer="1" stop="no" cream="no"/>
+<smd name="A" x="0" y="2.5" dx="4" dy="4" layer="1" stop="no" cream="no"/>
+<text x="0.635" y="-4.445" size="1.27" layer="21" rot="R90">C</text>
+<text x="0.635" y="3.175" size="1.27" layer="21" rot="R90">A</text>
 <text x="-2.54" y="-2.54" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="3.81" y="-2.54" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<rectangle x1="-2.25" y1="-2.1" x2="2.25" y2="-0.4" layer="29"/>
-<rectangle x1="-2.25" y1="0.4" x2="2.25" y2="2.1" layer="29"/>
-<rectangle x1="-2.15" y1="-2" x2="2.15" y2="-0.5" layer="31"/>
-<rectangle x1="-2.15" y1="0.5" x2="2.15" y2="2" layer="31"/>
+<rectangle x1="-2.1" y1="-2.2" x2="2.1" y2="-0.4" layer="29"/>
+<rectangle x1="-2.1" y1="0.4" x2="2.1" y2="2.2" layer="29"/>
+<rectangle x1="-1.9" y1="-2.1" x2="1.9" y2="-0.6" layer="31"/>
+<rectangle x1="-1.9" y1="0.6" x2="1.9" y2="2.1" layer="31"/>
 <rectangle x1="-1.85" y1="-2.05" x2="-0.7" y2="-1" layer="51"/>
 </package>
 <package name="SFH325FA-Z">
@@ -352,16 +355,16 @@
 <wire x1="-0.55" y1="-0.9" x2="-0.55" y2="0.9" width="0.1016" layer="51" curve="-167.319617"/>
 <wire x1="-0.55" y1="-0.9" x2="0.85" y2="-1.2" width="0.1016" layer="51" style="shortdash"/>
 <wire x1="-0.55" y1="0.9" x2="0.85" y2="1.2" width="0.1016" layer="51" style="shortdash"/>
-<smd name="C" x="0" y="-2.5" dx="4" dy="4" layer="1"/>
-<smd name="E" x="0" y="2.5" dx="4" dy="4" layer="1"/>
-<text x="0.635" y="-3.175" size="1.27" layer="21" rot="R90">C</text>
-<text x="0.635" y="2.54" size="1.27" layer="21" rot="R90">E</text>
+<smd name="C" x="0" y="-2.5" dx="4" dy="4" layer="1" stop="no" cream="no"/>
+<smd name="E" x="0" y="2.5" dx="4" dy="4" layer="1" stop="no" cream="no"/>
+<text x="0.635" y="-4.445" size="1.27" layer="21" rot="R90">C</text>
+<text x="0.635" y="3.175" size="1.27" layer="21" rot="R90">E</text>
 <text x="-2.54" y="-2.54" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="3.81" y="-2.54" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<rectangle x1="-2.25" y1="-2.1" x2="2.25" y2="-0.4" layer="29"/>
-<rectangle x1="-2.25" y1="0.4" x2="2.25" y2="2.1" layer="29"/>
-<rectangle x1="-2.15" y1="-2" x2="2.15" y2="-0.5" layer="31"/>
-<rectangle x1="-2.15" y1="0.5" x2="2.15" y2="2" layer="31"/>
+<rectangle x1="-2.1" y1="-2.2" x2="2.1" y2="-0.4" layer="29"/>
+<rectangle x1="-2.1" y1="0.4" x2="2.1" y2="2.2" layer="29"/>
+<rectangle x1="-1.9" y1="-2.1" x2="1.9" y2="-0.6" layer="31"/>
+<rectangle x1="-1.9" y1="0.6" x2="1.9" y2="2.1" layer="31"/>
 <rectangle x1="-1.85" y1="-2.05" x2="-0.7" y2="-1" layer="51"/>
 </package>
 <package name="NHD-C0216CIZ-FN-FBW-3V">
@@ -7378,7 +7381,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="U$11" library="AllAboutEE" deviceset="LM75BDP-TSSOP8" device=""/>
 <part name="RPU16" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="4.7k"/>
 <part name="RPU17" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="4.7k"/>
-<part name="BTN4" library="SparkFun-Electromechanical" deviceset="TAC_SWITCH" device="PTH"/>
+<part name="T_STMP" library="SparkFun-Electromechanical" deviceset="TAC_SWITCH" device="PTH"/>
 <part name="RPU4" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10k"/>
 <part name="C3" library="resistor" deviceset="C-US" device="C0805" value="100nF"/>
 <part name="C4" library="resistor" deviceset="C-US" device="C0805" value="100nF"/>
@@ -7526,7 +7529,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <instance part="RPU17" gate="G$1" x="17.78" y="2.54" smashed="yes">
 <attribute name="VALUE" x="15.24" y="4.064" size="1.778" layer="96"/>
 </instance>
-<instance part="BTN4" gate="S" x="38.1" y="195.58"/>
+<instance part="T_STMP" gate="S" x="38.1" y="195.58"/>
 <instance part="RPU4" gate="G$1" x="55.88" y="250.19" smashed="yes" rot="R270">
 <attribute name="VALUE" x="54.356" y="251.206" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -7785,8 +7788,8 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <junction x="60.96" y="162.56"/>
 </segment>
 <segment>
-<pinref part="BTN4" gate="S" pin="1"/>
-<pinref part="BTN4" gate="S" pin="2"/>
+<pinref part="T_STMP" gate="S" pin="1"/>
+<pinref part="T_STMP" gate="S" pin="2"/>
 <wire x1="33.02" y1="195.58" x2="33.02" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="162.56" x2="30.48" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="195.58" x2="33.02" y2="195.58" width="0.1524" layer="91"/>
@@ -8139,7 +8142,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <wire x1="127" y1="96.52" x2="129.54" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="BASE" class="0">
+<net name="DIN" class="0">
 <segment>
 <pinref part="TRANSMITTER" gate="A" pin="2"/>
 <pinref part="RPU13" gate="G$1" pin="2"/>
@@ -8226,8 +8229,8 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </net>
 <net name="N$27" class="0">
 <segment>
-<pinref part="BTN4" gate="S" pin="3"/>
-<pinref part="BTN4" gate="S" pin="4"/>
+<pinref part="T_STMP" gate="S" pin="3"/>
+<pinref part="T_STMP" gate="S" pin="4"/>
 <wire x1="43.18" y1="195.58" x2="43.18" y2="193.04" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="TS"/>
 <wire x1="43.18" y1="195.58" x2="66.04" y2="195.58" width="0.1524" layer="91"/>

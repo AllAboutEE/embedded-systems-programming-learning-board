@@ -7551,10 +7551,10 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <instance part="D_A" gate="A" x="42.164" y="60.96" rot="R180"/>
 </instances>
 <busses>
-<bus name="VDD">
+<bus name="VDD_SPI">
 <segment>
 <wire x1="10.16" y1="256.54" x2="147.32" y2="256.54" width="0.762" layer="92"/>
-<label x="4.318" y="256.54" size="1.778" layer="95"/>
+<label x="0.254" y="257.048" size="1.778" layer="95"/>
 </segment>
 </bus>
 <bus name="SCK">
@@ -7608,27 +7608,6 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <pinref part="U$5" gate="G$1" pin="3"/>
 </segment>
 <segment>
-<pinref part="VDD7" gate="VDD" pin="VDD"/>
-<wire x1="111.76" y1="110.998" x2="111.76" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="TRANSMITTER" gate="A" pin="4"/>
-<wire x1="101.6" y1="101.6" x2="111.76" y2="101.6" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="VDD6" gate="VDD" pin="VDD"/>
-<pinref part="RECEIVER_" gate="G$1" pin="C"/>
-<wire x1="154.94" y1="137.16" x2="154.94" y2="124.46" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="RPU12" gate="G$1" pin="2"/>
-<wire x1="134.62" y1="137.16" x2="134.62" y2="134.62" width="0.1524" layer="91"/>
-<pinref part="VDD5" gate="VDD" pin="VDD"/>
-</segment>
-<segment>
-<label x="19.05" y="66.04" size="1.016" layer="95" xref="yes"/>
-<pinref part="SPI" gate="A" pin="7"/>
-<wire x1="8.89" y1="66.04" x2="19.05" y2="66.04" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <label x="19.05" y="25.4" size="1.016" layer="95" xref="yes"/>
 <pinref part="I2C" gate="A" pin="5"/>
 <wire x1="8.89" y1="25.4" x2="19.05" y2="25.4" width="0.1524" layer="91"/>
@@ -7654,20 +7633,6 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <wire x1="25.4" y1="5.08" x2="27.94" y2="5.08" width="0.1524" layer="91"/>
 <junction x="25.4" y="5.08"/>
 <label x="27.94" y="5.08" size="1.016" layer="95" xref="yes"/>
-</segment>
-<segment>
-<wire x1="60.96" y1="217.17" x2="60.96" y2="256.54" width="0.1524" layer="91"/>
-<pinref part="C3" gate="G$1" pin="1"/>
-<pinref part="U$1" gate="G$1" pin="VDD"/>
-<wire x1="66.04" y1="215.9" x2="66.04" y2="217.17" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="217.17" x2="60.96" y2="217.17" width="0.1524" layer="91"/>
-<junction x="60.96" y="217.17"/>
-<junction x="60.96" y="256.54"/>
-</segment>
-<segment>
-<pinref part="RPU4" gate="G$1" pin="1"/>
-<wire x1="55.88" y1="255.27" x2="55.88" y2="256.54" width="0.1524" layer="91"/>
-<junction x="55.88" y="256.54"/>
 </segment>
 <segment>
 <pinref part="U$11" gate="G$1" pin="VCC"/>
@@ -8197,7 +8162,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <wire x1="127" y1="96.52" x2="129.54" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$28" class="0">
+<net name="BASE" class="0">
 <segment>
 <pinref part="TRANSMITTER" gate="A" pin="2"/>
 <pinref part="RPU13" gate="G$1" pin="2"/>
@@ -8494,6 +8459,45 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <wire x1="44.704" y1="63.5" x2="52.324" y2="63.5" width="0.1524" layer="91"/>
 <label x="52.324" y="63.5" size="1.016" layer="95" xref="yes"/>
 <pinref part="D_A" gate="A" pin="5"/>
+</segment>
+</net>
+<net name="VDD_IR" class="0">
+<segment>
+<pinref part="VDD7" gate="VDD" pin="VDD"/>
+<wire x1="111.76" y1="110.998" x2="111.76" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="TRANSMITTER" gate="A" pin="4"/>
+<wire x1="101.6" y1="101.6" x2="111.76" y2="101.6" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="RPU12" gate="G$1" pin="2"/>
+<wire x1="134.62" y1="137.16" x2="134.62" y2="134.62" width="0.1524" layer="91"/>
+<pinref part="VDD5" gate="VDD" pin="VDD"/>
+</segment>
+<segment>
+<pinref part="VDD6" gate="VDD" pin="VDD"/>
+<pinref part="RECEIVER_" gate="G$1" pin="C"/>
+<wire x1="154.94" y1="137.16" x2="154.94" y2="124.46" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="VDD_SPI" class="0">
+<segment>
+<label x="19.05" y="66.04" size="1.016" layer="95" xref="yes"/>
+<pinref part="SPI" gate="A" pin="7"/>
+<wire x1="8.89" y1="66.04" x2="19.05" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="60.96" y1="217.17" x2="60.96" y2="256.54" width="0.1524" layer="91"/>
+<pinref part="C3" gate="G$1" pin="1"/>
+<pinref part="U$1" gate="G$1" pin="VDD"/>
+<wire x1="66.04" y1="215.9" x2="66.04" y2="217.17" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="217.17" x2="60.96" y2="217.17" width="0.1524" layer="91"/>
+<junction x="60.96" y="217.17"/>
+<junction x="60.96" y="256.54"/>
+</segment>
+<segment>
+<pinref part="RPU4" gate="G$1" pin="1"/>
+<wire x1="55.88" y1="255.27" x2="55.88" y2="256.54" width="0.1524" layer="91"/>
+<junction x="55.88" y="256.54"/>
 </segment>
 </net>
 </nets>

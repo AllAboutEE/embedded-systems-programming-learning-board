@@ -8021,7 +8021,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <pinref part="RPU2" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$9" class="0">
+<net name="N$7" class="0">
 <segment>
 <wire x1="193.04" y1="246.38" x2="211.328" y2="246.38" width="0.1524" layer="91"/>
 <wire x1="211.328" y1="246.38" x2="211.328" y2="237.49" width="0.1524" layer="91"/>
