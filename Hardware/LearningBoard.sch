@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -7497,23 +7497,23 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="FRAME1" library="frames" deviceset="TABL_L" device=""/>
 <part name="U$3" library="AllAboutEE" deviceset="LTD-5623AG" device=""/>
 <part name="7_SEGMENT" library="adafruit" deviceset="PINHD-1X10" device=""/>
-<part name="RPU1" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="4.7k"/>
-<part name="RPU2" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="4.7k"/>
-<part name="RPU3" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="4.7k"/>
-<part name="RPU7" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="4.7k"/>
-<part name="RPU8" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="4.7k"/>
-<part name="RPU9" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="4.7k"/>
-<part name="RPU10" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="4.7k"/>
-<part name="RPU11" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="4.7k"/>
-<part name="U$5" library="AllAboutEE" deviceset="PTA1543" device=""/>
+<part name="R1" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="62"/>
+<part name="R2" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="62"/>
+<part name="R3" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="62"/>
+<part name="R4" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="62"/>
+<part name="R5" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="62"/>
+<part name="R6" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="62"/>
+<part name="R7" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="62"/>
+<part name="R8" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="62"/>
+<part name="POT1" library="AllAboutEE" deviceset="PTA1543" device=""/>
 <part name="VDD4" library="AllAboutEE" deviceset="VDD" device=""/>
 <part name="RIGHT" library="SparkFun-Electromechanical" deviceset="TAC_SWITCH" device="PTH"/>
 <part name="DOWN" library="SparkFun-Electromechanical" deviceset="TAC_SWITCH" device="PTH"/>
 <part name="LEFT" library="SparkFun-Electromechanical" deviceset="TAC_SWITCH" device="PTH"/>
 <part name="UP" library="SparkFun-Electromechanical" deviceset="TAC_SWITCH" device="PTH"/>
-<part name="RPU12" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10k"/>
-<part name="RPU13" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10k"/>
-<part name="RPU14" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10k"/>
+<part name="R17" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10k"/>
+<part name="R16" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10k"/>
+<part name="R18" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="5k"/>
 <part name="TRANSMITTER_" library="AllAboutEE" deviceset="SFH4244-Z" device=""/>
 <part name="T1" library="transistor" deviceset="*-NPN-" device="SOT23-BEC" technology="MMBT3904LT1"/>
 <part name="RECEIVER_" library="AllAboutEE" deviceset="SFH325FA-Z" device=""/>
@@ -7530,23 +7530,23 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="U$8" library="AllAboutEE" deviceset="254-EMB-140-RO" device=""/>
 <part name="U$9" library="AllAboutEE" deviceset="1N4148X-TP" device=""/>
 <part name="T2" library="transistor" deviceset="*-NPN-" device="SOT23-BEC" technology="MMBT3904LT1"/>
-<part name="RPU15" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10k"/>
+<part name="R9" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="768"/>
 <part name="VDD2" library="AllAboutEE" deviceset="VDD" device=""/>
 <part name="U$10" library="AllAboutEE" deviceset="10118192-0001LF" device=""/>
 <part name="IC1" library="AllAboutEE" deviceset="FT230XS-R" device="FT230XS-R"/>
 <part name="U$11" library="AllAboutEE" deviceset="LM75BDP-TSSOP8" device=""/>
-<part name="RPU16" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="4.7k"/>
-<part name="RPU17" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="4.7k"/>
+<part name="R14" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="4.7k"/>
+<part name="R15" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="4.7k"/>
 <part name="T_STMP" library="SparkFun-Electromechanical" deviceset="TAC_SWITCH" device="PTH"/>
-<part name="RPU4" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10k"/>
+<part name="R20" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10k"/>
 <part name="C3" library="resistor" deviceset="C-US" device="C0805" value="100nF"/>
 <part name="C4" library="resistor" deviceset="C-US" device="C0805" value="100nF"/>
 <part name="VDD3" library="AllAboutEE" deviceset="VDD" device=""/>
-<part name="RPU5" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10k"/>
+<part name="R19" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10k"/>
 <part name="VDD8" library="AllAboutEE" deviceset="VDD" device=""/>
 <part name="C5" library="resistor" deviceset="C-US" device="C0805" value="100nF"/>
-<part name="RPU6" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="27R"/>
-<part name="RPU18" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="27R"/>
+<part name="R13" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="27R"/>
+<part name="R12" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="27R"/>
 <part name="C6" library="resistor" deviceset="C-US" device="C0805" value="47pF"/>
 <part name="C7" library="resistor" deviceset="C-US" device="C0805" value="47pF"/>
 <part name="U$13" library="AllAboutEE" deviceset="VSS" device=""/>
@@ -7563,8 +7563,8 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="C8" library="resistor" deviceset="C-US" device="C0805" value="4.7uF"/>
 <part name="C9" library="resistor" deviceset="C-US" device="C0805" value="100nF"/>
 <part name="C10" library="resistor" deviceset="C-US" device="C0805" value="100nF"/>
-<part name="RPU19" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="4k7"/>
-<part name="RPU20" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10k"/>
+<part name="R10" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="4k7"/>
+<part name="R11" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10k"/>
 <part name="VDD9" library="AllAboutEE" deviceset="VDD" device=""/>
 <part name="U$23" library="AllAboutEE" deviceset="VSS" device=""/>
 <part name="U$24" library="AllAboutEE" deviceset="VSS" device=""/>
@@ -7622,53 +7622,53 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <instance part="FRAME1" gate="G$2" x="299.72" y="0"/>
 <instance part="U$3" gate="G$1" x="220.98" y="190.5" rot="R270"/>
 <instance part="7_SEGMENT" gate="G$1" x="167.64" y="238.76" rot="R180"/>
-<instance part="RPU1" gate="G$1" x="187.96" y="251.46" smashed="yes" rot="R180">
+<instance part="R1" gate="G$1" x="187.96" y="251.46" smashed="yes" rot="R180">
 <attribute name="NAME" x="194.056" y="252.7554" size="1.016" layer="95" rot="R180"/>
 <attribute name="VALUE" x="185.166" y="252.73" size="1.016" layer="96" rot="R180"/>
 </instance>
-<instance part="RPU2" gate="G$1" x="187.96" y="248.92" smashed="yes" rot="R180">
+<instance part="R2" gate="G$1" x="187.96" y="248.92" smashed="yes" rot="R180">
 <attribute name="NAME" x="194.056" y="250.2154" size="1.016" layer="95" rot="R180"/>
 <attribute name="VALUE" x="184.912" y="250.19" size="1.016" layer="96" rot="R180"/>
 </instance>
-<instance part="RPU3" gate="G$1" x="187.96" y="246.38" smashed="yes" rot="R180">
+<instance part="R3" gate="G$1" x="187.96" y="246.38" smashed="yes" rot="R180">
 <attribute name="NAME" x="194.056" y="247.6754" size="1.016" layer="95" rot="R180"/>
 <attribute name="VALUE" x="184.912" y="247.65" size="1.016" layer="96" rot="R180"/>
 </instance>
-<instance part="RPU7" gate="G$1" x="187.96" y="243.84" smashed="yes" rot="R180">
+<instance part="R4" gate="G$1" x="187.96" y="243.84" smashed="yes" rot="R180">
 <attribute name="NAME" x="194.056" y="245.1354" size="1.016" layer="95" rot="R180"/>
 <attribute name="VALUE" x="184.912" y="245.11" size="1.016" layer="96" rot="R180"/>
 </instance>
-<instance part="RPU8" gate="G$1" x="187.96" y="241.3" smashed="yes" rot="R180">
+<instance part="R5" gate="G$1" x="187.96" y="241.3" smashed="yes" rot="R180">
 <attribute name="NAME" x="194.056" y="242.5954" size="1.016" layer="95" rot="R180"/>
 <attribute name="VALUE" x="185.166" y="242.57" size="1.016" layer="96" rot="R180"/>
 </instance>
-<instance part="RPU9" gate="G$1" x="187.96" y="238.76" smashed="yes" rot="R180">
+<instance part="R6" gate="G$1" x="187.96" y="238.76" smashed="yes" rot="R180">
 <attribute name="NAME" x="194.056" y="240.0554" size="1.016" layer="95" rot="R180"/>
 <attribute name="VALUE" x="185.166" y="240.03" size="1.016" layer="96" rot="R180"/>
 </instance>
-<instance part="RPU10" gate="G$1" x="187.96" y="236.22" smashed="yes" rot="R180">
+<instance part="R7" gate="G$1" x="187.96" y="236.22" smashed="yes" rot="R180">
 <attribute name="NAME" x="194.818" y="237.5154" size="1.016" layer="95" rot="R180"/>
 <attribute name="VALUE" x="185.166" y="237.49" size="1.016" layer="96" rot="R180"/>
 </instance>
-<instance part="RPU11" gate="G$1" x="187.96" y="233.68" smashed="yes" rot="R180">
+<instance part="R8" gate="G$1" x="187.96" y="233.68" smashed="yes" rot="R180">
 <attribute name="NAME" x="194.818" y="234.9754" size="1.016" layer="95" rot="R180"/>
 <attribute name="VALUE" x="185.166" y="234.95" size="1.016" layer="96" rot="R180"/>
 </instance>
-<instance part="U$5" gate="G$1" x="83.82" y="53.34" rot="R90"/>
+<instance part="POT1" gate="G$1" x="83.82" y="53.34" rot="R90"/>
 <instance part="VDD4" gate="VDD" x="83.82" y="60.96" smashed="yes"/>
 <instance part="RIGHT" gate="S" x="276.86" y="137.16"/>
 <instance part="DOWN" gate="S" x="276.86" y="124.46"/>
 <instance part="LEFT" gate="S" x="276.86" y="111.76"/>
 <instance part="UP" gate="S" x="276.86" y="99.06"/>
-<instance part="RPU12" gate="G$1" x="134.62" y="129.54" smashed="yes" rot="R90">
+<instance part="R17" gate="G$1" x="134.62" y="129.54" smashed="yes" rot="R90">
 <attribute name="NAME" x="137.4394" y="127.508" size="1.016" layer="95" rot="R90"/>
 <attribute name="VALUE" x="133.096" y="128.27" size="1.016" layer="96" rot="R90"/>
 </instance>
-<instance part="RPU13" gate="G$1" x="121.92" y="96.52" smashed="yes" rot="R180">
+<instance part="R16" gate="G$1" x="121.92" y="96.52" smashed="yes" rot="R180">
 <attribute name="NAME" x="123.698" y="95.0214" size="1.016" layer="95" rot="R180"/>
 <attribute name="VALUE" x="122.936" y="99.06" size="1.016" layer="96" rot="R180"/>
 </instance>
-<instance part="RPU14" gate="G$1" x="154.94" y="99.06" smashed="yes" rot="R270">
+<instance part="R18" gate="G$1" x="154.94" y="99.06" smashed="yes" rot="R270">
 <attribute name="NAME" x="156.6926" y="101.092" size="1.016" layer="95" rot="R270"/>
 <attribute name="VALUE" x="152.4" y="100.076" size="1.016" layer="96" rot="R270"/>
 </instance>
@@ -7704,7 +7704,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <instance part="T2" gate="G$1" x="276.86" y="22.86" smashed="yes">
 <attribute name="VALUE" x="266.7" y="27.94" size="1.778" layer="96"/>
 </instance>
-<instance part="RPU15" gate="G$1" x="266.7" y="22.86" smashed="yes" rot="R180">
+<instance part="R9" gate="G$1" x="266.7" y="22.86" smashed="yes" rot="R180">
 <attribute name="NAME" x="268.478" y="21.3614" size="1.016" layer="95" rot="R180"/>
 <attribute name="VALUE" x="267.716" y="25.146" size="1.016" layer="96" rot="R180"/>
 </instance>
@@ -7717,16 +7717,16 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <instance part="U$11" gate="G$1" x="203.2" y="127" smashed="yes">
 <attribute name="VALUE" x="203.962" y="127.254" size="1.778" layer="95"/>
 </instance>
-<instance part="RPU16" gate="G$1" x="17.78" y="7.62" smashed="yes">
+<instance part="R14" gate="G$1" x="17.78" y="7.62" smashed="yes">
 <attribute name="NAME" x="20.574" y="7.8486" size="1.016" layer="95"/>
 <attribute name="VALUE" x="11.938" y="7.874" size="1.016" layer="96"/>
 </instance>
-<instance part="RPU17" gate="G$1" x="17.78" y="2.54" smashed="yes">
+<instance part="R15" gate="G$1" x="17.78" y="2.54" smashed="yes">
 <attribute name="NAME" x="20.574" y="2.7686" size="1.016" layer="95"/>
 <attribute name="VALUE" x="11.938" y="2.794" size="1.016" layer="96"/>
 </instance>
 <instance part="T_STMP" gate="S" x="38.1" y="195.58"/>
-<instance part="RPU4" gate="G$1" x="55.88" y="250.19" smashed="yes" rot="R270">
+<instance part="R20" gate="G$1" x="55.88" y="250.19" smashed="yes" rot="R270">
 <attribute name="NAME" x="57.3786" y="251.714" size="1.016" layer="95" rot="R270"/>
 <attribute name="VALUE" x="53.34" y="251.206" size="1.016" layer="96" rot="R270"/>
 </instance>
@@ -7739,7 +7739,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <attribute name="VALUE" x="66.548" y="170.815" size="1.016" layer="96"/>
 </instance>
 <instance part="VDD3" gate="VDD" x="233.68" y="132.08" smashed="yes"/>
-<instance part="RPU5" gate="G$1" x="215.9" y="101.6" smashed="yes" rot="R180">
+<instance part="R19" gate="G$1" x="215.9" y="101.6" smashed="yes" rot="R180">
 <attribute name="NAME" x="217.17" y="100.1014" size="1.016" layer="95" rot="R180"/>
 <attribute name="VALUE" x="216.662" y="104.14" size="1.016" layer="96" rot="R180"/>
 </instance>
@@ -7748,11 +7748,11 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <attribute name="NAME" x="160.528" y="33.655" size="1.016" layer="95"/>
 <attribute name="VALUE" x="158.496" y="29.083" size="1.016" layer="96"/>
 </instance>
-<instance part="RPU6" gate="G$1" x="154.94" y="43.18" smashed="yes" rot="R180">
+<instance part="R13" gate="G$1" x="154.94" y="43.18" smashed="yes" rot="R180">
 <attribute name="NAME" x="161.036" y="44.4754" size="1.016" layer="95" rot="R180"/>
 <attribute name="VALUE" x="151.892" y="44.45" size="1.016" layer="96" rot="R180"/>
 </instance>
-<instance part="RPU18" gate="G$1" x="154.94" y="40.64" smashed="yes" rot="R180">
+<instance part="R12" gate="G$1" x="154.94" y="40.64" smashed="yes" rot="R180">
 <attribute name="NAME" x="161.544" y="41.6814" size="1.016" layer="95" rot="R180"/>
 <attribute name="VALUE" x="151.892" y="41.91" size="1.016" layer="96" rot="R180"/>
 </instance>
@@ -7787,11 +7787,11 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <attribute name="NAME" x="220.98" y="23.495" size="1.016" layer="95"/>
 <attribute name="VALUE" x="219.456" y="19.177" size="1.016" layer="96"/>
 </instance>
-<instance part="RPU19" gate="G$1" x="187.96" y="33.02" smashed="yes" rot="R270">
+<instance part="R10" gate="G$1" x="187.96" y="33.02" smashed="yes" rot="R270">
 <attribute name="NAME" x="189.2046" y="34.798" size="1.016" layer="95" rot="R270"/>
 <attribute name="VALUE" x="185.42" y="33.782" size="1.016" layer="96" rot="R270"/>
 </instance>
-<instance part="RPU20" gate="G$1" x="187.96" y="22.86" smashed="yes" rot="R270">
+<instance part="R11" gate="G$1" x="187.96" y="22.86" smashed="yes" rot="R270">
 <attribute name="NAME" x="189.4586" y="24.892" size="1.016" layer="95" rot="R270"/>
 <attribute name="VALUE" x="185.42" y="23.622" size="1.016" layer="96" rot="R270"/>
 </instance>
@@ -7856,7 +7856,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <net name="VDD" class="0">
 <segment>
 <pinref part="VDD4" gate="VDD" pin="VDD"/>
-<pinref part="U$5" gate="G$1" pin="3"/>
+<pinref part="POT1" gate="G$1" pin="3"/>
 </segment>
 <segment>
 <pinref part="U$9" gate="D$1" pin="C"/>
@@ -7887,7 +7887,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <label x="30.48" y="101.6" size="1.016" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="RPU16" gate="G$1" pin="1"/>
+<pinref part="R14" gate="G$1" pin="1"/>
 <wire x1="12.7" y1="7.62" x2="7.62" y2="7.62" width="0.1524" layer="91"/>
 <label x="7.62" y="7.62" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -7917,7 +7917,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <wire x1="8.89" y1="63.5" x2="19.05" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="RPU4" gate="G$1" pin="2"/>
+<pinref part="R20" gate="G$1" pin="2"/>
 <pinref part="U$1" gate="G$1" pin="INT"/>
 <wire x1="55.88" y1="245.11" x2="55.88" y2="190.5" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="190.5" x2="66.04" y2="190.5" width="0.1524" layer="91"/>
@@ -7928,7 +7928,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </net>
 <net name="VSS" class="0">
 <segment>
-<pinref part="U$5" gate="G$1" pin="1"/>
+<pinref part="POT1" gate="G$1" pin="1"/>
 <pinref part="U$12" gate="VSS" pin="VSS"/>
 </segment>
 <segment>
@@ -7973,7 +7973,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <pinref part="U$15" gate="VSS" pin="VSS"/>
 </segment>
 <segment>
-<pinref part="RPU14" gate="G$1" pin="2"/>
+<pinref part="R18" gate="G$1" pin="2"/>
 <wire x1="154.94" y1="93.98" x2="154.94" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="U$16" gate="VSS" pin="VSS"/>
 </segment>
@@ -8052,7 +8052,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <pinref part="U$22" gate="VSS" pin="VSS"/>
 <pinref part="U$10" gate="G$1" pin="GND"/>
 <wire x1="193.04" y1="15.24" x2="193.04" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="RPU20" gate="G$1" pin="2"/>
+<pinref part="R11" gate="G$1" pin="2"/>
 <wire x1="193.04" y1="17.78" x2="193.04" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="38.1" x2="195.58" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="17.78" x2="193.04" y2="17.78" width="0.1524" layer="91"/>
@@ -8117,7 +8117,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <label x="25.4" y="101.6" size="1.016" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="RPU17" gate="G$1" pin="1"/>
+<pinref part="R15" gate="G$1" pin="1"/>
 <wire x1="12.7" y1="2.54" x2="7.62" y2="2.54" width="0.1524" layer="91"/>
 <label x="7.62" y="2.54" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -8163,7 +8163,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <junction x="214.63" y="245.11"/>
 <pinref part="U$3" gate="G$1" pin="P11"/>
 <wire x1="214.63" y1="210.82" x2="217.17" y2="210.82" width="0.1524" layer="91"/>
-<pinref part="RPU1" gate="G$1" pin="1"/>
+<pinref part="R1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -8176,7 +8176,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <wire x1="217.17" y1="207.01" x2="213.106" y2="207.01" width="0.1524" layer="91"/>
 <wire x1="213.106" y1="207.01" x2="213.106" y2="241.3" width="0.1524" layer="91"/>
 <junction x="213.106" y="241.3"/>
-<pinref part="RPU2" gate="G$1" pin="1"/>
+<pinref part="R2" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -8189,7 +8189,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <wire x1="217.17" y1="203.2" x2="211.328" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="211.328" y1="203.2" x2="211.328" y2="237.49" width="0.1524" layer="91"/>
 <junction x="211.328" y="237.49"/>
-<pinref part="RPU3" gate="G$1" pin="1"/>
+<pinref part="R3" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -8202,7 +8202,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <wire x1="217.17" y1="199.39" x2="209.296" y2="199.39" width="0.1524" layer="91"/>
 <wire x1="209.296" y1="199.39" x2="209.296" y2="233.68" width="0.1524" layer="91"/>
 <junction x="209.296" y="233.68"/>
-<pinref part="RPU7" gate="G$1" pin="1"/>
+<pinref part="R4" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -8215,7 +8215,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <wire x1="217.17" y1="195.58" x2="207.264" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="207.264" y1="195.58" x2="207.264" y2="229.87" width="0.1524" layer="91"/>
 <junction x="207.264" y="229.87"/>
-<pinref part="RPU8" gate="G$1" pin="1"/>
+<pinref part="R5" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -8228,7 +8228,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <wire x1="217.17" y1="191.77" x2="205.232" y2="191.77" width="0.1524" layer="91"/>
 <wire x1="205.232" y1="191.77" x2="205.232" y2="226.06" width="0.1524" layer="91"/>
 <junction x="205.232" y="226.06"/>
-<pinref part="RPU9" gate="G$1" pin="1"/>
+<pinref part="R6" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$12" class="0">
@@ -8241,7 +8241,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <wire x1="217.17" y1="187.96" x2="203.2" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="187.96" x2="203.2" y2="222.25" width="0.1524" layer="91"/>
 <junction x="203.2" y="222.25"/>
-<pinref part="RPU10" gate="G$1" pin="1"/>
+<pinref part="R7" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$13" class="0">
@@ -8254,61 +8254,61 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <wire x1="217.17" y1="184.15" x2="200.914" y2="184.15" width="0.1524" layer="91"/>
 <wire x1="200.914" y1="184.15" x2="200.914" y2="218.44" width="0.1524" layer="91"/>
 <junction x="200.914" y="218.44"/>
-<pinref part="RPU11" gate="G$1" pin="1"/>
+<pinref part="R8" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$14" class="0">
 <segment>
-<pinref part="RPU1" gate="G$1" pin="2"/>
+<pinref part="R1" gate="G$1" pin="2"/>
 <pinref part="7_SEGMENT" gate="G$1" pin="10"/>
 <wire x1="170.18" y1="251.46" x2="182.88" y2="251.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$15" class="0">
 <segment>
-<pinref part="RPU2" gate="G$1" pin="2"/>
+<pinref part="R2" gate="G$1" pin="2"/>
 <pinref part="7_SEGMENT" gate="G$1" pin="9"/>
 <wire x1="170.18" y1="248.92" x2="182.88" y2="248.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$16" class="0">
 <segment>
-<pinref part="RPU3" gate="G$1" pin="2"/>
+<pinref part="R3" gate="G$1" pin="2"/>
 <pinref part="7_SEGMENT" gate="G$1" pin="8"/>
 <wire x1="170.18" y1="246.38" x2="182.88" y2="246.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$17" class="0">
 <segment>
-<pinref part="RPU7" gate="G$1" pin="2"/>
+<pinref part="R4" gate="G$1" pin="2"/>
 <pinref part="7_SEGMENT" gate="G$1" pin="7"/>
 <wire x1="170.18" y1="243.84" x2="182.88" y2="243.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$18" class="0">
 <segment>
-<pinref part="RPU8" gate="G$1" pin="2"/>
+<pinref part="R5" gate="G$1" pin="2"/>
 <pinref part="7_SEGMENT" gate="G$1" pin="6"/>
 <wire x1="170.18" y1="241.3" x2="182.88" y2="241.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$19" class="0">
 <segment>
-<pinref part="RPU9" gate="G$1" pin="2"/>
+<pinref part="R6" gate="G$1" pin="2"/>
 <pinref part="7_SEGMENT" gate="G$1" pin="5"/>
 <wire x1="170.18" y1="238.76" x2="182.88" y2="238.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$20" class="0">
 <segment>
-<pinref part="RPU10" gate="G$1" pin="2"/>
+<pinref part="R7" gate="G$1" pin="2"/>
 <pinref part="7_SEGMENT" gate="G$1" pin="4"/>
 <wire x1="170.18" y1="236.22" x2="182.88" y2="236.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$21" class="0">
 <segment>
-<pinref part="RPU11" gate="G$1" pin="2"/>
+<pinref part="R8" gate="G$1" pin="2"/>
 <pinref part="7_SEGMENT" gate="G$1" pin="3"/>
 <wire x1="170.18" y1="233.68" x2="182.88" y2="233.68" width="0.1524" layer="91"/>
 </segment>
@@ -8344,27 +8344,27 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <net name="N$25" class="0">
 <segment>
 <pinref part="TRANSMITTER_" gate="G$1" pin="A"/>
-<pinref part="RPU12" gate="G$1" pin="1"/>
+<pinref part="R17" gate="G$1" pin="1"/>
 <wire x1="134.62" y1="124.46" x2="134.62" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$26" class="0">
 <segment>
 <pinref part="T1" gate="G$1" pin="B"/>
-<pinref part="RPU13" gate="G$1" pin="1"/>
+<pinref part="R16" gate="G$1" pin="1"/>
 <wire x1="127" y1="96.52" x2="129.54" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DIN" class="0">
 <segment>
 <pinref part="TRANSMITTER" gate="A" pin="2"/>
-<pinref part="RPU13" gate="G$1" pin="2"/>
+<pinref part="R16" gate="G$1" pin="2"/>
 <wire x1="101.6" y1="96.52" x2="116.84" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="IR_RECEIVER" class="0">
 <segment>
-<pinref part="RPU14" gate="G$1" pin="1"/>
+<pinref part="R18" gate="G$1" pin="1"/>
 <pinref part="RECEIVER_" gate="G$1" pin="E"/>
 <wire x1="154.94" y1="114.3" x2="154.94" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="109.22" x2="154.94" y2="104.14" width="0.1524" layer="91"/>
@@ -8424,13 +8424,13 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <net name="N$29" class="0">
 <segment>
 <pinref part="T2" gate="G$1" pin="B"/>
-<pinref part="RPU15" gate="G$1" pin="1"/>
+<pinref part="R9" gate="G$1" pin="1"/>
 <wire x1="274.32" y1="22.86" x2="271.78" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VIN" class="0">
 <segment>
-<pinref part="RPU15" gate="G$1" pin="2"/>
+<pinref part="R9" gate="G$1" pin="2"/>
 <wire x1="261.62" y1="22.86" x2="259.08" y2="22.86" width="0.1524" layer="91"/>
 <label x="259.08" y="22.86" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -8462,7 +8462,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <pinref part="U$11" gate="G$1" pin="OS"/>
 <wire x1="198.12" y1="114.3" x2="195.58" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="114.3" x2="195.58" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="RPU5" gate="G$1" pin="2"/>
+<pinref part="R19" gate="G$1" pin="2"/>
 <wire x1="195.58" y1="101.6" x2="210.82" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="114.3" x2="193.04" y2="114.3" width="0.1524" layer="91"/>
 <junction x="195.58" y="114.3"/>
@@ -8477,13 +8477,13 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <net name="N$33" class="0">
 <segment>
 <pinref part="IC1" gate="IC" pin="USB-"/>
-<pinref part="RPU6" gate="G$1" pin="2"/>
+<pinref part="R13" gate="G$1" pin="2"/>
 <wire x1="144.78" y1="43.18" x2="149.86" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$34" class="0">
 <segment>
-<pinref part="RPU6" gate="G$1" pin="1"/>
+<pinref part="R13" gate="G$1" pin="1"/>
 <pinref part="U$10" gate="G$1" pin="D-"/>
 <wire x1="160.02" y1="43.18" x2="170.18" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="1"/>
@@ -8495,7 +8495,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <net name="N$35" class="0">
 <segment>
 <pinref part="U$10" gate="G$1" pin="D+"/>
-<pinref part="RPU18" gate="G$1" pin="1"/>
+<pinref part="R12" gate="G$1" pin="1"/>
 <wire x1="195.58" y1="40.64" x2="177.8" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="C6" gate="G$1" pin="1"/>
 <wire x1="177.8" y1="40.64" x2="160.02" y2="40.64" width="0.1524" layer="91"/>
@@ -8505,7 +8505,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </net>
 <net name="N$36" class="0">
 <segment>
-<pinref part="RPU18" gate="G$1" pin="2"/>
+<pinref part="R12" gate="G$1" pin="2"/>
 <pinref part="IC1" gate="IC" pin="USB+"/>
 <wire x1="149.86" y1="40.64" x2="144.78" y2="40.64" width="0.1524" layer="91"/>
 </segment>
@@ -8517,8 +8517,8 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <label x="109.22" y="38.1" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="RPU19" gate="G$1" pin="2"/>
-<pinref part="RPU20" gate="G$1" pin="1"/>
+<pinref part="R10" gate="G$1" pin="2"/>
+<pinref part="R11" gate="G$1" pin="1"/>
 <wire x1="187.96" y1="27.94" x2="180.34" y2="27.94" width="0.1524" layer="91"/>
 <junction x="187.96" y="27.94"/>
 <wire x1="180.34" y1="27.94" x2="180.34" y2="22.86" width="0.1524" layer="91"/>
@@ -8527,7 +8527,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </net>
 <net name="N$38" class="0">
 <segment>
-<pinref part="RPU19" gate="G$1" pin="1"/>
+<pinref part="R10" gate="G$1" pin="1"/>
 <pinref part="U$10" gate="G$1" pin="VCC"/>
 <wire x1="187.96" y1="38.1" x2="187.96" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="48.26" x2="195.58" y2="48.26" width="0.1524" layer="91"/>
@@ -8592,7 +8592,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </net>
 <net name="POT_OUT" class="0">
 <segment>
-<pinref part="U$5" gate="G$1" pin="2"/>
+<pinref part="POT1" gate="G$1" pin="2"/>
 <wire x1="78.74" y1="53.34" x2="73.66" y2="53.34" width="0.1524" layer="91"/>
 <label x="73.66" y="53.34" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -8670,7 +8670,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <wire x1="101.6" y1="101.6" x2="111.76" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="RPU12" gate="G$1" pin="2"/>
+<pinref part="R17" gate="G$1" pin="2"/>
 <wire x1="134.62" y1="137.16" x2="134.62" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="VDD5" gate="VDD" pin="VDD"/>
 </segment>
@@ -8696,7 +8696,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <junction x="60.96" y="256.54"/>
 </segment>
 <segment>
-<pinref part="RPU4" gate="G$1" pin="1"/>
+<pinref part="R20" gate="G$1" pin="1"/>
 <wire x1="55.88" y1="255.27" x2="55.88" y2="256.54" width="0.1524" layer="91"/>
 <junction x="55.88" y="256.54"/>
 </segment>
@@ -8717,7 +8717,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <pinref part="VDD3" gate="VDD" pin="VDD"/>
 <wire x1="231.14" y1="124.46" x2="233.68" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="124.46" x2="233.68" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="RPU5" gate="G$1" pin="1"/>
+<pinref part="R19" gate="G$1" pin="1"/>
 <wire x1="220.98" y1="101.6" x2="233.68" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="101.6" x2="233.68" y2="124.46" width="0.1524" layer="91"/>
 <junction x="233.68" y="124.46"/>
@@ -8728,9 +8728,9 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <wire x1="8.89" y1="27.94" x2="19.05" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="RPU16" gate="G$1" pin="2"/>
+<pinref part="R14" gate="G$1" pin="2"/>
 <wire x1="22.86" y1="7.62" x2="25.4" y2="7.62" width="0.1524" layer="91"/>
-<pinref part="RPU17" gate="G$1" pin="2"/>
+<pinref part="R15" gate="G$1" pin="2"/>
 <wire x1="22.86" y1="2.54" x2="25.4" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="7.62" x2="25.4" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="5.08" x2="25.4" y2="2.54" width="0.1524" layer="91"/>
